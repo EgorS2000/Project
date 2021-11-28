@@ -1,0 +1,1 @@
+INSERT INTO "Project_userinfo" (name, last_name, age, photo, user_id) values('egor', 'shilkin', 21, null, 1);

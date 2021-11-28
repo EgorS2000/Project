@@ -1,6 +1,5 @@
 from pathlib import Path
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-ko!bo#r#v4d4q(t@sh%gh-=uj1l^^k$x!!*9-8tk&0rylh=!cs'
@@ -8,7 +7,6 @@ SECRET_KEY = 'django-insecure-ko!bo#r#v4d4q(t@sh%gh-=uj1l^^k$x!!*9-8tk&0rylh=!cs
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -121,9 +119,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 STATIC_URL = '/static/'
 STATIC_ROOT = '/static/'
 MEDIA_ROOT = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+from ProjectDjangoREST.env_settings import *
