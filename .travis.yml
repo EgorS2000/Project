@@ -3,4 +3,4 @@ sudo: required
 language: python
 
 script:
-  - python back/ProjectDjangoREST/manage.py test
+  - python back.ProjectDjangoREST.manage.py test
