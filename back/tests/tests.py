@@ -1,9 +1,8 @@
 from rest_framework import status
-from rest_framework.test import APITestCase, APIClient
-from rest_framework.authtoken.models import Token
+from unittest import TestCase
 
 
-class RegistrationTestCase(APITestCase):
+class RegistrationTestCase(TestCase):
     def test_registration_201(self):
         data = {
             'username': 'egor',
