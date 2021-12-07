@@ -4,4 +4,4 @@ language: python
 
 script:
   - cd ~/
-  - python /back/tests/tests
+  - python /back/tests/tests.py
