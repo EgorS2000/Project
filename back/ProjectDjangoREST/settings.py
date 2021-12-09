@@ -61,7 +61,8 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 12345678,
         'HOST': 'db',
-        'PORT': 5432
+        'PORT': 5432,
+        'DISABLE_SERVER_SIDE_CURSORS': True,
     }
 }
 

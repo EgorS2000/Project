@@ -1,6 +1,12 @@
 sudo: required
 
+services:
+  - docker
+
 language: python
 
 script:
   - python back/manage.py test
+
+after_success:
+  — sh .travis/deploy_dockerhub.sh
