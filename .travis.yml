@@ -1,11 +1,6 @@
 sudo: required
 
-services:
-  - docker
-
 language: python
 
-before_scripts: pip install docker-compose
-
 script:
-  - docker-compose exec web python manage.py test
+  - python back/manage.py test
