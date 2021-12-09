@@ -6,7 +6,7 @@ def main():
     """Run administrative tasks."""
     os.environ.setdefault(
         'DJANGO_SETTINGS_MODULE',
-        'ProjectDjangoREST.settings'
+        'back.ProjectDjangoREST.settings'
     )
 
     try:

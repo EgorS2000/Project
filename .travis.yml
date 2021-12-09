@@ -3,4 +3,4 @@ sudo: required
 language: python
 
 script:
-  - python back/manage.py tests
+  - python back/manage.py test
