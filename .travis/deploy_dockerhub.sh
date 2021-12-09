@@ -5,5 +5,5 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
 else
     TAG="$TRAVIS_BRANCH"
 fi
-docker-compose build
-docker push
+docker-compose build -t $NAMES:"latest" .
+docker push $NAMES
