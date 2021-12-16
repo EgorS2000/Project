@@ -14,8 +14,8 @@
 Для комфортного использования нужна индивидуальная ручная настройка функций, которые будут показаны после завершения регистрации.
 
 ## Contributing: 
-Egor - back + deploying
-Ilya - manager
-Konstantin - front
-Nikolay - BA
-Alexander - manager
+ + Egor - back + deploying
+ + Ilya - manager
+ + Konstantin - front
+ + Nikolay - BA
+ + Alexander - manager
